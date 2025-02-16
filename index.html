@@ -21,25 +21,26 @@
     background-color: #000000;
     color: rgb(255, 255, 255);
     padding: 15px;
-    font-size: 24px;
+    font-size: 22px; 
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: right; 
 }
 
 .back-button {
     position: absolute;
-    left: 15px;
+    left: 10px; 
     top: 50%; 
     transform: translateY(-50%); 
-    background-color: rgba(133, 130, 130, 0.77);
+    background-color: rgba(133, 130, 130, 0.7);
     color: #ffffff;
-    padding: 8px 12px;
+    padding: 5px 8px; 
     text-decoration: none;
     border-radius: 4px;
-    font-size: 16px;
-    z-index: 1000; 
+    font-size: 14px; 
+    z-index: 1000;
 }
 
 .main-content {
@@ -97,18 +98,14 @@ li {
 
 @media screen and (max-width: 768px) {
     .header {
-        position: relative;
-        height: auto; 
-        padding: 12px; 
+        font-size: 18px; 
+        padding: 12px;
     }
 
     .back-button {
-        font-size: 14px;
-        padding: 6px 10px;
-        left: 10px;
-        top: 50%; 
-        transform: translateY(-50%);
-        z-index: 1000; 
+        font-size: 12px; 
+        padding: 4px 7px; 
+        left: 8px; 
     }
 
     .main-content {
