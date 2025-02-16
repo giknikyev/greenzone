@@ -3,78 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <title>UKRAINE RP - Зелені зони</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(to bottom, #1ba062, #06130bfb);
-            text-align: center;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-        .header {
-            background-color: #000000;
-            color: rgb(255, 255, 255);
-            padding: 15px;
-            font-size: 24px;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .back-button {
-            position: absolute;
-            left: 20px;
-            background-color: rgba(133, 130, 130, 0.77);
-            color: #ffffff;
-            padding: 8px 12px;
-            text-decoration: none;
-            border-radius: 4px;
-            font-size: 16px;
-        }
-        .main-content {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding-bottom: 20px;
-        }
-        .image-container {
-            margin: 20px auto;
-            max-width: 800px;
-        }
-        img {
-            width: 100%;
-            height: auto;
-            border-radius: 5px;
-        }
-        .info {
-            max-width: 800px;
-            padding: 15px;
-            background-color: rgba(255, 255, 255, 0);
-            color: rgb(255, 255, 255);
-            border-radius: 5px;
-            margin-bottom: 20px;
-        }
-        .footer {
-            background-color: #000000;
-            color: white;
-            padding: 10px;
-            font-size: 14px;
-        }
-        ul {
-            text-align: left; 
-            padding-left: 20px; 
-            list-style-type: none; 
-        }
+       body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #1ba062, #06130bfb);
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
-        li {
-            text-align: left; 
-        }
+.header {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 24px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-button {
+    position: absolute;
+    left: 10px;
+    background-color: rgba(133, 130, 130, 0.77);
+    color: #ffffff;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; 
+}
+
+.image-container {
+    margin: 15px auto;
+    width: 90%; 
+    max-width: 600px; 
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.info {
+    width: 90%;
+    max-width: 600px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-bottom: 15px; 
+    text-align: left;
+}
+
+.footer {
+    background-color: #000000;
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+}
+
+
+ul {
+    text-align: left;
+    padding-left: 20px;
+    list-style-type: none;
+    width: 90%; 
+    max-width: 600px;
+}
+
+li {
+    text-align: left;
+}
+
+
+@media screen and (max-width: 768px) {
+    .header {
+        font-size: 20px; 
+        padding: 10px;
+    }
+
+    .back-button {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+    .main-content {
+        padding: 10px;
+    }
+
+    .image-container {
+        width: 100%; 
+        max-width: 500px;
+    }
+
+    .info {
+        width: 95%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .footer {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
+
     </style>
 </head>
 <body>
